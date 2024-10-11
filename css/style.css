@@ -1,1 +1,47 @@
+.container {
+  gap: 23px;
+  display: flex;
+
+  margin-bottom: 30px;
+}
+.container > div {
+  /* box-shadow: 5px 0px 10px #f3e6e6; */
+  border-radius: 10px;
+}
+.container > div > img {
+  border-radius: 10px 10px 0 0;
+  width: 316px;
+}
+.container > div > div > a {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(18, 100, 168);
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 280px;
+  margin-top: 50px;
+}
+.container2 > div > img {
+  width: 50px;
+}
+.Back {
+  text-align: right;
+  text-decoration: none;
+  background-color: rgb(218, 215, 209);
+  color: black;
+  padding: 10px;
+}
+p,h2{
+  width: 300px;
+}
+@media screen and (min-width: 500px) {
+  .container{
+    flex-wrap: wrap;
+  }
+  
+}
 
